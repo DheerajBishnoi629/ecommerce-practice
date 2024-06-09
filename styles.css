@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.logo img{
+    height: 70px;
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+   margin-left: 18px;
+}
+.logo{
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+}
+.logo ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    font-size: 30px;
+}
+.logo ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+.logo select{
+    margin-top: 38px;
+    margin-bottom: 31px;
+    margin-left: 30px;
+}
+.logo ul li a:link{
+color: green;
+}
+.logo ul li a:visited{
+color: white;
+}
+.logo ul li a:hover{
+color: red;
+}
+.logo ul li a:active{
+color: purple;
+}
+.logo input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 90px;
+}
+.logo button{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color:rgb(157, 53, 53);
+}
+.product{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+.product h3{
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 40px;
+    color: goldenrod;
+}
+.product img{
+    height: 100px;
+    width: 100px;
+}
+.product div{
+    margin-left: 100px;
+    height: 100px;
+    width: 120px;
+    text-align: center;
+}
+.slidshow {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.mySlides{
+    display: none;
+}
+.slidshow img{
+    height: 600px;
+    width: 1450px;
+    margin-left: 32px;
+    margin-right: auto;
+    align-items: center;  
+}
+.product a:link{
+    color: green;
+    }
+    .product a:visited{
+    color: white;
+    }
+    .product a:hover{
+    color: red;
+    }
+    .product a:active{
+    color: purple;
+    }
+.logo button:hover{
+     background-color:rgba(157, 53, 53, 0.508) ;
+}
+.fashion {
+    display: flex;
+    padding:50px;
+}
+.fashion table th:hover,.fashion table th a:hover{
+    background-color: #04AA6D;
+    color: red;
+}
+.fashion h3{
+    margin-left: 45px;
+    padding-top: 20px;
+}
+.fashion table{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.fashion table th a{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.sidelist{
+    left: 0;
+    width: 160px;
+    height: 150px;
+    padding-bottom: 200px;
+    border: 1px solid white;
+}
+.sidelist:hover{
+    background-color: #3e8e41;
+}
+.sidelist ul li a:hover{
+    color: red;
+}
+.sidelist ul {
+    list-style: none;
+    padding: 4px;
+}
+.sidelist ul li {
+    padding: 5px;
+    text-align: center;
+}
+.sidelist ul li a{
+    color: white;
+    text-decoration: none;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+  
+#myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+  
+#myInput:focus {outline: 3px solid #ddd;}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  margin: 0px 10px 0px 10px;
+
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover {background-color: #ddd;}
+.show {display: block;}
+.productitem{
+display: flex;
+}
+.sports1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1160px;
+    height: 1200px;
+    max-width: 1160px;
+}
+.s1{
+     height: 350px;
+     width: 250px;
+     margin: 60px 35px 15px 5px;
+}
+.s2 img{
+    height: 300px;
+    width: 250px;
+}
+.s3{
+height: 40px;
+width: 80px;
+}
+.payment{
+    height: 1000px;
+}
+.payment1{
+    display: flex;
+    padding: 35px 0px 20px 100px;
+    height: 70px;
+}
+.payment1 h3{
+    margin: -10px 130px 0px 25px;
+    padding: 0px 30px 0px 25px;
+    font-size: 30px;
+}
+.payment1 i{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.payc {
+    margin-left: 40px;
+    padding: 0px 20px 0px 25px;
+    display: inline-flex;
+}
+.payc p{
+    margin-left: 10px;
+}
+.offer{
+    height: 100px;
+    text-align: center;
+}
+.offer a{
+    text-decoration: none;
+}
+.offer a:link{
+    color: green;
+}
+.offer a:visited{
+    color: white;
+}
+.offer a:hover{
+    color: red;
+}
+.offer a:active{
+    color: greenyellow;
+}
+.payo{
+    padding-right: 50px;
+    padding-left: 140px;
+}
+.payo h3{
+    font-size: 40px;
+}
+.bttn{
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1270px;
+    margin-top: 50px;
+}
+.bttn1{
+    display: flex;
+    margin: 20px 50px 70px 40px;
+
+}
+.bttn2{
+    display: flex;
+    margin: 20px auto 70px 400px;
+  
+}
+.bttn3{
+    display: flex;
+    margin: 20px auto 70px 340px;
+}
+.bttn4{
+    display: flex;
+    margin: 20px auto 70px 215px;
+}
+.bill{
+    height: 300px;
+    width: 400px;
+}
+.bill1{
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 0px auto 10px 20px;
+}
+.bill1 p{
+    margin: 10px;
+}
+.btnpay{
+    margin: 20px auto auto 300px;
+    padding: 10px;
+}
+.btnpay button{
+   font-size: 15px;
+    padding: 12px 14px 12px 14px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.btnpay button:hover{
+    background-color: green;
+    color:black;
+    cursor: pointer;
+}
+.cards{
+    font-size: 60px;
+}
+.cards i{
+    margin: 0px 20px 0px 40px;
+}
+.aboutus{
+    display: flex;
+    margin: 10px auto auto 200px;
+}
+.aboutus1 ul{
+    margin-left: 24px;
+    margin-right: 92px;
+}
+.aboutus1 ul li,.aboutus ul li a {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+}
+.help ul{
+    margin-left: 24px;
+    margin-right: 92px;
+}
+.help ul li,.help ul li a {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+}
+.consumer ul{
+    margin-left: 24px;
+    margin-right: 92px;
+}
+.consumer ul li,.consumer ul li a {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+}
+.social ul{
+    margin-left: 24px;
+    margin-right: 92px;
+}
+.social ul li,.social ul li a {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+}
+.aboutus1 ul li a:link,.help ul li a:link,.consumer ul li a:link,.social ul li a:link{
+    color:green;
+}
+.aboutus1 ul li a:visited,.help ul li a:visited,.consumer ul li a:visited,.social ul li a:visited{
+    color: white;
+}
+.aboutus1 ul li a:hover,.help ul li a:hover,.consumer ul li a:hover,.social ul li a:hover{
+    color:red;
+}
+.aboutus1 ul li a:active,.help ul li a:active,.consumer ul li a:active,.social ul li a:active{
+    color: white;
+}
+.adrs{
+    margin: 40px auto 10px 220px;
+}
+.adrs ul li{
+    list-style: none;
+    margin: 5px auto auto 20px;
+    
+}
+.copy{
+    margin: 5px 0px 10px auto;
+    padding-left: 1150px;
+    
+}
+
+
+
+
